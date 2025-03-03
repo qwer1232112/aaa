@@ -8,3 +8,5 @@ This one is pretty straightforward. We can see that the encrypted text file is i
 The key is given in the title: **0x61**
 
 ![image](https://github.com/user-attachments/assets/1cf000c3-77bc-4b7e-a996-da5062ff8ea9)
+fff
+ff
