@@ -5,5 +5,5 @@ Attachment: [flag.txt.encry](https://github.com/harishkannan05/SnykCTF-2024-Writ
 
 # Solution
 This one is pretty straightforward. We can see that the encrypted text file is in Hex and as the description says, we just have to XOR it. <br />
-The key is given in the title: 0x61.
+The key is given in the title: **0x61**
 ![image](https://github.com/user-attachments/assets/1cf000c3-77bc-4b7e-a996-da5062ff8ea9)
