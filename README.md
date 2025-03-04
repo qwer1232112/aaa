@@ -10,6 +10,8 @@ The `name` input is directly passed into a shell command.
 ![image](https://github.com/user-attachments/assets/1695c2ba-d0a9-403b-9a01-eb46b196fbad)
 
 To exploit this, we can use this basic payload to read the flag:
-``` ;cat flag.txt ```
+``` 
+;cat flag.txt
+```
 
 ![image](https://github.com/user-attachments/assets/2e842314-0507-4a8e-b60f-1414b72a3fd8)
