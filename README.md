@@ -1,12 +1,13 @@
 # Challenge Statement 
-![image](https://github.com/user-attachments/assets/0b6dd53d-940d-4f70-b824-d4020ed86fd2)
+![image](https://github.com/user-attachments/assets/5baa9328-b6fb-4c21-adbf-63dfdf06c446)
 
-Attachment: [flag.txt.encry](https://github.com/harishkannan05/SnykCTF-2024-Writeup/blob/main/Attachments/flag.txt.encry)
+Attachment: [CTF101.zip](https://github.com/harishkannan05/SnykCTF-2024-Writeup/blob/main/Attachments/CTF101.zip)
 
 # Solution
-This one is pretty straightforward. We can see that the encrypted text file is in Hex and as the description says, we just have to XOR it. <br />
-The key is given in the title: **0x61**
+By analyzing the source code, we can see that the application is vulnerable to command injection. <br />
+The `name` input is directly passed into a shell command. 
+![image](https://github.com/user-attachments/assets/1695c2ba-d0a9-403b-9a01-eb46b196fbad)
 
-![image](https://github.com/user-attachments/assets/1cf000c3-77bc-4b7e-a996-da5062ff8ea9)
-fff <br />
-ff
+To exploit this, we can use this basic payload to read the flag:
+``` ;cat flag.txt ```
+![image](https://github.com/user-attachments/assets/2e842314-0507-4a8e-b60f-1414b72a3fd8)
