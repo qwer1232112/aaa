@@ -14,6 +14,7 @@ To exploit this, we can use this basic payload to read the flag:
 ;cat flag.txt
 ```
 
-![image](https://github.com/user-attachments/assets/2e842314-0507-4a8e-b60f-1414b72a3fd8)
+![image](https://github.com/user-attachments/assets/9f90d40a-3a3e-4354-b9bf-6bf2ede84010)
 
-![image](https://github.com/user-attachments/assets/aa946da0-dbdf-452b-abc8-35781b877cdc)
+
+
