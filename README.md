@@ -4,7 +4,7 @@
 Attachment: [Image](https://github.com/harishkannan05/THM-HackfinityBattle-Writeup/blob/main/Attachments/Beco-OSINT-1741020774699.png)
 # Solution
 
-We start by doing a reverse image search on Google. We learn that the name of the place is Beco Do Batman. 
+We start by doing a reverse image search on Google. We learn that the name of the place is Beco Do Batman.  
 ![image](https://github.com/user-attachments/assets/677e2903-991c-4af7-9bf5-7e387019000f)
 
 We can then look for burger places nearby. 
